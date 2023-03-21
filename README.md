@@ -1,2 +1,0 @@
-# figma
-figma 
