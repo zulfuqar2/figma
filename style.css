@@ -6,35 +6,24 @@
     }
     .footer{
         display: inline-block;
+
     }
-    .photo .one{
-        position: absolute;
-        width: 314px;
-        height: 315px;
-        left: 987px;
-        top: 226px;
-        
-        background: url(_1.png);
+    
+    body{
+        background-color: bisque;
     }
-    .photo2{
-        position: absolute;
-        width: 232px;
-        height: 203px;
-        left: 124px;
-        top: 670px;
-        background: url(photo.png);
+    @media(max-width:768px){
+        body{
+            background-color: aqua;
+        }
     }
-    h4{
-        position: absolute;
-        width: 150px;
-        height: 39px;
-        left: 488px;
-        top: 740px;
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 130%;
-      color: #000000;
-    }
+     @media(max-width:468px){
+        body{
+            background-color: pink;
+        }
+     }
+    
+      
+    
+   
    
