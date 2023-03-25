@@ -12,13 +12,11 @@
 
     }
     .photoone{
-        position: absolute;
-        width: 314px;
-        height: 315px;
-        left: 987px;
-        top: 226px;
-
-        background: url(_1.png);
+        position: relative;
+         width: 314px;
+         height: 315px;
+        left: 976px;
+         top: 226px;
     }
     .photo2{
         position: absolute;
