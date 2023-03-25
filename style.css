@@ -1,3 +1,6 @@
+    body{
+        background-color: yellowgreen;
+    }
     .one{
     width:662px ;
     height:374px ;
@@ -8,6 +11,27 @@
         display: inline-block;
 
     }
+    .photoone{
+        position: absolute;
+        width: 314px;
+        height: 315px;
+        left: 987px;
+        top: 226px;
+
+        background: url(_1.png);
+    }
+    .photo2{
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        left: 124px;
+        top: 670px;
+        background: url(photo.png);
+    }
+    aside{
+        display: flex;
+        flex-direction: wrap;
+    }
     
     body{
         background-color: bisque;
@@ -17,7 +41,7 @@
             background-color: aqua;
         }
     }
-     @media(max-width:468px){
+     @media(max-width:600px){
         body{
             background-color: pink;
         }
