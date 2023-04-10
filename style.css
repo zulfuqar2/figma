@@ -1,4 +1,4 @@
-    body{
+    /* body{
         background-color: red;
         width: 1440px;
         height: 1046px;
@@ -16,19 +16,17 @@
 
     }
     .photoone{
-        position: relative;
+        display: flex;
          width: 314px;
          height: 315px;
-        left: 976px;
-         top: 226px;
+         flex-wrap: nowrap;
+
     }
     .photo2{
-        position: absolute;
+        display: flex;
         width: 232px;
         height: 203px;
-        left: 124px;
-        top: 670px;
-        background: url(photo.png);
+
     }
     aside{
         display: flex;
@@ -37,30 +35,16 @@
     
     body{
         background-color: bisque;
-    }
-    @media(max-width:834px){
-        body{
-            background-color: aqua;
-            height: 633px;
-            width: 834px;
-            left: 891px;
-            top: -512px;
-            border-radius: 0px;
+    } */
 
 
-        }
-    }
-     @media(max-width:375px){
-        body{
-            background-color: pink;
-            height: 776px;
-            width: 375px;
-            left: 1896px;
-            top: -512px;
-            border-radius: 0px;
 
-        }
-     }
+
+
+
+    
+
+
     
       
     
